@@ -4,5 +4,5 @@
     const lista = document.getElementById("lista")
 
     for (let nome of nomes) {
-        lista.innerHTML += '<li>${nome}<li>'
+        lista.innerHTML += `<li>${nome}</li>`
     }
